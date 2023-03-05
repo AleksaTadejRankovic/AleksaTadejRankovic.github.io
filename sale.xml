@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>Sales</title>
+  <link>https://aleksatadejrankovic.github.io/index.html</link>
+  <description>Currently on sale</description>
+  <item>
+    <title>Spirit 2-78d</title>
+    <link>https://aleksatadejrankovic.github.io/index.html</link>
+    <description>Vintage wood series</description>
+  </item>
+  <item>
+    <title>Crumar 9078</title>
+    <link>https://aleksatadejrankovic.github.io/index.html</link>
+    <description>Vintage black-wood series</description>
+  </item>
+  <item>
+    <title>XEON A6</title>
+    <link>https://aleksatadejrankovic.github.io/index.html</link>
+    <description>Synthesizer</description>
+  </item>
+</channel>
+
+</rss>
