@@ -65,11 +65,7 @@ span{
 #meni{
 	float: right;
 	margin-top: 15px;
-	
-	
 }
-
-
 #header ul li{
 	display: inline;
 	margin-left: 30px;
@@ -144,7 +140,7 @@ span{
 }
 .middle {
 	width: 100%;
-	height: 680px;
+	height: 540px;
 }
 .center h4{
 	font-size: 40px;
@@ -162,6 +158,7 @@ span{
 	float: left;
 	text-align: center;
 	position: relative;
+	transition: transform 0.5s; 
 }
 .marginLeft5{
 	margin-left: 5%;
@@ -181,7 +178,9 @@ span{
 	top: 10px;
 	left: 350px;
 }
-
+.product:hover{
+	transform: scale(1.025,1.025);
+}
 .saleC h5{
 	position: relative;
 	top: 12px;
@@ -306,8 +305,6 @@ p span{
 #section{
 	width: 80%;
 	margin: 50px auto;
-	
-	
 }
 .article{
 	width: 98.5%;
@@ -482,7 +479,14 @@ input#streetAd,input#email{width: 100%;}
 input[type="date"]{width: 17%;}
 input#phone,input#item{width: 82%}
 input#phoneStart,input#number{width: 10%}
-input[type="submit"]{margin: 0px auto; margin-top: 30px; background-color: #7d6ad9; color: white; transition: 0.4s; border: none;}
+input[type="submit"]{
+	margin: 0px auto;
+	margin-top: 30px;
+	background-color: #7d6ad9;
+	color: white;
+	transition: 0.4s;
+	border: none;
+}
 select#city,input#region{width: 47.6%;}
 option{color: #2b293a;}
 
