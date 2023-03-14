@@ -108,37 +108,31 @@ span{
 
 #shipping{
 	width: 100%;
-	height: 80px;
 	background-color: #ededed;
-
+	display: flex;
+	justify-content: center;
 }
-#center2{
-	margin: 0px auto;
-	width: 50%;
+.boxS{
+	padding: 12px 10px;
 	font-size: 40px;
-	padding: 10px;
+	display: flex;
+	align-items: center;
 }
-#center2 i{
-	float: left;
-	margin-top: 7px;
-	margin-left: 180px;
+.boxS i{
 	color: #513b5c;
 }
-#center2 h3{
-	float: left;
-	margin-left: 20px;
+.boxS h3{
 	color: #ff1919;
-	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 40px;
+	letter-spacing: 0.07em;
+	
 }
-#center2 p{
-	float: left;
+.boxS p{
 	color: black;
 	font-size: 20px;
-	margin-left: 15px;
+	text-align: justify;
 }
-.pMarginTop{
-	margin-top: 4px;
-}
+
 .middle {
 	width: 100%;
 	height: 540px;
